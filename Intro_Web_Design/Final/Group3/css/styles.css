@@ -1,0 +1,640 @@
+ /*
+	Student Name: Rodney Whitney
+	File Name: styles.css
+	Date: 09/25/2022
+*/
+
+/* CSS Reset */ 
+body, header, nav, main, footer, img, h1, h3, h2, ul, aside, section, figure, figcaption, video, article, table, th, caption, td, tr, details, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+/* Style rules for index content */
+body{
+    background-image: url("../images/parchment.jpg");
+    background-size: contain;    
+}
+
+main{
+    padding: 0% 15%;
+}
+
+/* Style rule for images */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+    max-width: 100%;
+}
+
+video {
+    display: block;
+    border: groove;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+
+/* Style rules for header content */
+header {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    color: #373684;
+    font-family: Alkalami, serif;
+    max-height: 45%;
+}
+ 
+header h1 {
+    font-style: italic;
+    outline: auto; 
+    text-decoration-color: black;
+    background: url("../images/future.png") no-repeat;
+    background-origin: border-box;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.tab-desk, .desktop, #nav-links {
+    display: none;
+}
+/* Style rules for navigation area */
+nav {
+    background: url("../images/sky2.png");
+    background-size: cover;
+    background-origin: padding-box;
+    background-position: center bottom;
+    padding: 1%;
+    position: sticky;
+    top: 0;
+    
+}
+
+nav h2{
+    text-align: center;
+    font-size: 3em;
+    color: hsla(135,76%,26%,1.00);
+    font-family: Alkalami, serif;
+    
+}
+ 
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+ 
+nav li {
+    display: inline-block;
+    font-size: 2em;
+    border-bottom: thin solid #fff;
+    border-top: thin solid #fff;
+}
+ 
+nav li:last-child{
+    border-bottom: none;
+}
+
+nav li:first-child{
+    border-top: none;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    overflow: auto;
+    font-family: Oswald, sans-serif;
+    
+}
+ 
+main p {
+    font-size: 1.25em;
+}
+
+/* Style rules for welcome id tag */
+#welcome p {
+    text-align: center;
+}
+#welcome h3 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 5em;
+}
+* {
+    box-sizing: border-box;
+}
+.grid, .chargrid {
+    display: grid;
+    margin: auto;
+    padding: auto;
+} 
+
+.chargrid{
+    grid-auto-flow: column;
+    
+}
+
+.griddata {
+    display: inline-grid;
+    grid-column: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+
+}
+
+.griddata img {
+    border: medium hsla(18,53%,57%,1.00);
+    border-style: solid;
+}
+
+.detailrow {
+    column-count: 3;
+    text-align: justify-all;
+    font-size: 1.1em;
+}
+
+.descriptrow {
+    text-align: left;
+    
+}
+
+.ratings {
+    right: 0;
+    display: grid;
+    
+}
+.console ul {
+    list-style: none;
+    justify-content: center;
+    
+}
+
+.console li {
+    display: inline-block;
+}
+
+.console p{
+    font-size: 0.5em;
+}
+
+/* Style rules for buttons with rounded corners */
+.sky {
+    background: url("../images/sky2.png");
+    background-size: contain;
+}
+
+.summary {
+    text-align: center;
+    font-size: 1.75em;
+}
+
+.summary img, .summary figure {
+    min-width: 1200px;
+}
+
+hr {
+    display: none;
+}
+
+aside {
+  text-align: center;
+  font-size: 1.5em;
+  text-shadow: 4px 4px 10px #c5a687;
+}
+
+figure {
+  border: 4px solid #2a1f14;
+  box-shadow: 6px 6px 10px;
+  margin: 2% auto;
+}
+
+figure img {
+    max-width: 100%;
+    height:auto;
+}
+
+figcaption {
+  padding: 2%;
+  border-top: 4px solid #2a1f14;
+}
+
+hr {
+	border-top: 2px solid black;
+}
+
+/* Style rules for team content */
+#team h1,h2,h3,h4 {
+    text-align: center;
+    font-size: 3.3em;
+    margin-top: 0;
+    font-family: Alkalami;
+    text-decoration: underline
+}
+
+#team p {
+    padding-bottom: .25%;
+}
+/* Style rules for forum content */
+
+/* Style rules for form elements */
+
+fieldset, textarea {
+  margin-bottom: 2%;
+}
+
+fieldset legend {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+label {
+  display: block;
+  padding-top: 0.5%;
+    border-bottom: ridge
+}
+
+form #submit {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 1%;
+  background-color: #373684;
+  color: #f6eee4;
+  font-size: 1.25em;
+  border-radius: 10px;
+}
+
+input {
+    width: auto;
+}
+
+table {
+    align-self: center;
+    position: inherit;
+    margin: auto;
+    border-bottom: solid;
+    border-left: solid;
+    border-top: solid;
+    border-radius: 15px 3px 5px 15px;
+    width: auto;
+    height: auto;
+}
+
+th {
+    text-decoration: underline;
+    font-size: 1.5em;
+    padding: 5px 2.25% 1.5% 1%;
+    border-bottom: solid;
+    border-radius: 15px 3px 5px 15px;
+}
+
+td{
+    border-bottom: solid;
+    border-radius: 15px 3px 5px 15px;
+    width: auto;
+    height: auto;
+    font-size: 1.25em;
+    padding-left: 2%;
+    
+}
+
+.clouds {
+    background: url("../images/texture1.png");
+    background-size: contain;
+    background-position: center;
+    
+}
+
+/* Style rules for about content */
+
+.span {
+    column-span: all;
+}
+
+.space{
+    border: 0;
+    padding: 1% 0;
+}
+/*
+.flipcard {
+    background-color: transparent;
+    width:inherit;
+    height: inherit;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+}
+
+.flipcard_innards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flipcard:active .fipcard_innards {
+    transform: rotateY(180deg);
+}
+
+.flipcard_front, .flipcard_back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flipcard_front {
+    
+}
+
+.flipcard_back {
+    
+}
+*/
+
+
+/* Style rules for contact content */
+#contact {
+    text-align: center;
+}
+ 
+
+
+.map{
+    border: 2px solid #000;
+    width: auto;
+    height: auto;
+    max-width: 85%;
+    max-height: 50%;
+}
+
+#contact ul,li {
+    list-style: none;
+    font-size: 1.15em;
+}
+
+.socials {
+    text-align: center;
+    display: grid;
+}
+
+.con_info {
+    text-decoration: underline;
+    background: url("../images/texture1.png");
+    background-size: contain;
+    background-position: center;
+}
+
+.runes {
+    background: url("../images/runes.png");
+    background-position: center;
+    background-size: contain;
+    padding: 0;
+}
+
+.texture {
+    background: url("../images/texture2.png");
+    background-position: center;
+    background-size: cover;   
+}
+
+.bright, .large {
+    background: hsla(0,0%,98%,0.52)
+}
+
+.large {
+    font-size: 1.65em;
+}
+
+.border {
+    
+    border: 10px;
+    border-color: brown;
+    border-image-outset: 5px;
+    box-sizing: content-box;
+}
+.menu {
+    background: url("../images/menu.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.none {
+	border: none;
+	box-sizing: border-box;
+    
+}
+
+.column {
+  float: left;
+  width: 16.6%;
+  padding: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: relative;
+  bottom: 15px;
+  text-align-last: center;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+
+.tel, .email{
+   /* font-size-adjust: 150%;*/
+    font-size: 2.5em
+}
+
+.sky2 {
+    background: url("../images/future.png");
+    background-size: contain;
+    
+}
+    
+ 
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    clear: left;  
+    background: url("../images/logo.png");
+    border-top: 4px hsla(186,50%,4%,1.00);
+}
+
+.fade {
+    background: hsla(0,0%,0%,.45);
+}
+ 
+footer a {
+    color: #C3C3C3;
+    text-decoration: underline;
+}
+
+.footer, footer p {
+    text-decoration: none;
+    font-family: Oswald;
+	color: #e6dfdf;
+}
+
+
+
+/* unvisited link */
+a:link {
+  color: #f08605;
+}
+
+/* visited link */
+a:visited {
+  color: #F76E1E;
+}
+
+/* mouse over link */
+a:hover {
+  color: #EDB71C;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: #ED4B1C;
+}
+
+
+/* Style rules for Mobile */
+    /* Show mobile class, hide desktop class */
+.mobile {
+    display: none;
+}
+
+.tablet-desktop {
+    display: block;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 481px) {
+
+ /* Tablet Viewport: Show tab-desk class, hide mobile class */
+    .tab-desk {
+        display: block;
+    }
+
+    .mobile, .mobile-nav {
+        display: none;
+    }
+
+article {
+  width: 43%;
+  float: left;
+  height: 160px;
+}
+
+footer {
+  clear: left;
+}
+
+body {
+    background: auto;
+}
+
+
+}
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1000px), print {
+    
+    /* Desktop Viewport: Style rules for nav area */
+    nav li {
+        font-size: 1.5em;
+    }
+    
+    nav li a {
+        padding: 0.5em 1.5em;
+    }
+    
+    /* Desktop Viewport: Style rules for main content */
+    #info ul {
+        margin-left: 5%;
+    }
+
+    }
+    
+
+/* Media Query for Large Desktop Viewports */
+@media screen and (min-width: 1921px), print {
+    
+    
+    #wrapper {
+        width: 1920px;
+        margin: 0 auto;
+    }
+        
+    main {
+        background-color: #f6eee4;
+    }
+}
+
+/* Media Query for Print */
+@media print {
+    
+    body {
+        background-color: #fff;
+        color: #000;
+    }
+    
+}
+
+
